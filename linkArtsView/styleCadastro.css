@@ -21,36 +21,19 @@ header{
     z-index: 99;
 }
 
-
-/* header h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-
 .popup-login{
     margin: 10%;
     position:fixed;
     margin-top: 200px;
     background-color: #736eaa;
     border-radius: 20px;
+
+    display: flex;
+    align-items: center;
     width: 80%;
+    height: 55%;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.6);
-    max-width: 300px;
-    min-width: 200px;
 }
-/* 
-.popup-login::after{
-    position: absolute;
-    content: '';
-    background-color:#dfe2cc;
-    height: 5px;
-    width: 80%;
-    top: 0;
-    left: 9%;
-    border-radius: 10%;
-} */
 
 .popup-login-content h2{
     margin: none;
@@ -59,28 +42,33 @@ header{
 
 
 .popup-login-content{
-    /* text-align: center; */
     padding: 10px;
-    position: relative;
+
+
+    position: absolute;
 }
 
 .popup-login label{
+    left: 10px;
     font-size: 20px;
     margin-bottom: 5px;
-    /* margin: 0px 0px 0px; */
 }
 
 #userName,
-#userPassword{
+#userPassword,
+#userEmail,
+#ConfirmPass,
+#CPFCNPJ{
+
+    margin-top: 10px;
     border-radius: 10px;
-    border: 0;
+    border: 10px;
     text-align: center;
-    width:80%;
+    width: 40%;
     padding: 5px;
 }
 
 .popup-login form input:focus {
-    /* outline: none; */
     border-color: #f21e1e;
 }
 
@@ -97,13 +85,7 @@ header{
 
 }
 
-/* 
-popup-login-form#popup-login input{
-    border-radius: 10%;
-} */
-
 a{
-    /* display: flex; */
     font-size: 15px;
     padding: 0px 80px 0px 0px;
 }
