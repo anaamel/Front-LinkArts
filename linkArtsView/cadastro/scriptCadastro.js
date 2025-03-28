@@ -7,7 +7,7 @@ function toggleCadastro(tipo) {
         cnpjField.style.display = "none";
 
         welcomeText.innerText = 'Bem-vindo, Artista!';
-        welcomeImage.src = 'img/imgArtista.png';
+        welcomeImage.src = '../img/imgArtista.png';
         
         tituloTipoCadastro.innerText = 'Cadastro do Artista';
 
@@ -16,7 +16,7 @@ function toggleCadastro(tipo) {
         cnpjField.style.display = "block";
 
         welcomeText.innerText = 'Bem-vinda, Empresa!';
-        welcomeImage.src = 'img/imgEmpresa.png';
+        welcomeImage.src = '../img/imgEmpresa.png';
 
         tituloTipoCadastro.innerText = 'Cadastro da Empresa';
     }
