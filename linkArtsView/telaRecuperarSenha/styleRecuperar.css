@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.left-panel {
+    width: 15%;
+    background: #5c46aa;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+
+    position: relative;
+    top: -17.5rem;
+    left: -5rem;
+    background: #D7D7D7;
+    height: 8rem;
+    width: 35rem;
+    border-radius: 5rem;
+
+}
+
+.logo {
+    position: relative;
+    top: 0rem;
+    left: 5rem;
+    width: 10rem;
+}
+
+.right-panel {
+    width: 80%;
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 60%;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.input-group label {
+    font-weight: bold;
+}
+
+.btn-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    background: black;
+    color: lime;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.btn-secondary {
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: not-allowed;
+    opacity: 0.7;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.info-text {
+    margin-top: 10px;
+    color: gray;
+    font-size: 0.9rem;
+}
