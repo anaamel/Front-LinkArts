@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styleDashboard.css">
+    <script src="scriptDashboard.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="logo-box">
+            <img src="img/logo.png" alt="Logo" class="logo">
+        </div>
+        <input type="text" class="search-input" placeholder="Pesquise aqui">
+        <div class="icon-bar">
+            <img src="img/mail-icon.png" alt="Mensagens" class="icon">
+            <img src="img/bell-icon.png" alt="Notificações" class="icon">
+            <img src="img/user-icon.png" alt="Perfil" class="icon">
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="left-section">
+            <div class="favorito">
+                <img src="img/heart-icon.png" alt="Favoritos" class="icon">
+            </div>
+            <div class="users">
+                <div class="user-icon" style="background-color: #ccffcc;"></div>
+                <div class="user-icon" style="background-color: #eeeeee;"></div>
+                <div class="user-icon" style="background-color: #cceeff;"></div>
+                <div class="user-icon" style="background-color: #ffcccc;"></div>
+            </div>
+            <h1><strong><em>Novidades</em></strong> para você</h1>
+            <div id="perfil-container" class="perfil-container">
+            </div>
+        </section>
+
+        <section class="right-section">
+            <div class="card-agenda">
+                <h2><span class="agenda-title">Agenda</span><br>Próximos eventos</h2>
+                <img src="img/dj-ilustracao.png" alt="DJ tocando" class="agenda-img">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

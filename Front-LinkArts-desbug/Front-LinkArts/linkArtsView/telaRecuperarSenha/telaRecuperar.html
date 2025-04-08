@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="styleRecuperar.css">
+    <script src="scriptRecuperar.js" defer></script>
+</head>
+<body>
+    <div class="left-panel">
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+        </div>
+    </div>
+    <div class="right-panel">
+        <h1 class="title">Esqueceu sua senha?</h1>
+
+        <div class="input-group" id="email-section">
+            <input type="email" placeholder="Digite seu email" id="email-input">
+            <div class="btn-container">
+                <button class="btn" onclick="enviarEmail()">Enviar</button>
+            </div>
+        </div>
+
+        <div id="codigo-section" style="display: none;">
+            <div class="input-group">
+                <label>Digite o código recebido</label>
+                <input type="text">
+            </div>
+
+            <div class="input-group">
+                <label>Digite a senha nova</label>
+                <input type="password">
+            </div>
+
+            <div class="input-group">
+                <label>Repita a senha nova</label>
+                <input type="password">
+            </div>
+
+            <div class="btn-container">
+                <button class="btn-secondary resend-button" disabled>Reenviar o código</button>
+                <button class="btn">Enviar</button>
+            </div>
+
+            <div class="info-text">Disponível para reenvio em 30 segundos...</div>
+        </div>
+    </div>
+</body>
+</html>
